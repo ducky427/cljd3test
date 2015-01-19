@@ -30,7 +30,4 @@
                          :optimizations :whitespace
                          :preamble ["d3.v3.js"]}}]
               :test-commands {"unit-tests" ["phantomjs" :runner
-                                   "vendor/console-polyfill.js"
-                                   "vendor/es5-shim.js"
-                                   "vendor/es5-sham.js"
-                                   "target/test.js"]}})
+                                            "target/test.js"]}})
